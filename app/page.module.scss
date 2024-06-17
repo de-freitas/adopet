@@ -1,10 +1,12 @@
-.main {
+.body {
+  background-color: #3772ff;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+}
+
+.forma1 {
+  width: 25rem;
+  height: 18.5rem;
+  position: absolute;
 }
 
 .description {
