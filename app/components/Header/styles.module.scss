@@ -5,12 +5,13 @@
 }
 
 .navigation {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 7rem;
   height: 1.875rem;
-  margin: 4rem 5rem;
+  margin: 3rem 5rem;
   .logo {
     display: none;
   }

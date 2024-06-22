@@ -1,4 +1,43 @@
 .container {
   background-color: #3772ff;
-  height: 87.6777251185vh;
+  height: 92.4170616114vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sections {
+  position: relative;
+  margin: 0 auto;
+  top: -9rem;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.75rem;
+  margin: 0 auto;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 1.75rem;
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.forma2 {
+  position: absolute;
+  right: 0;
+  top: 25%;
+}
+
+.randomDog {
+  margin: 0 auto;
 }
