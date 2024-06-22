@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div>
+    <div className={styles.container}>
       <nav className={styles.navigation}>
         <Link href="/" className={styles.logo}>
           <Image src={logoImg} alt="adopet logo" width={128} height={31} />
