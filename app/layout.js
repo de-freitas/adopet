@@ -2,7 +2,10 @@ import { Poppins } from "next/font/google";
 import "./globals.scss";
 import Footer from "./components/Footer/Footer";
 
-const popins = Poppins({ weight: "300", subsets: ["latin"] });
+const popins = Poppins({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Create Next App",

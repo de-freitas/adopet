@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 import homeImg from "../../../public/header/homeImg.png";
 import messageImg from "../../../public/header/messageImg.png";
-import logoImg from "../../../public/header/logoImg.png";
+import logoImg from "../../../public/header/logoImg.svg";
 
 import Link from "next/link";
 

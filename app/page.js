@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import Header from "./components/Header/Header";
 
 import forma1 from "../public/forma1.png";
 import forma2 from "../public/forma2.png";
 import randomDog from "../public/randomDog.png";
-import logo from "../public/header/logoImg.png";
+import logo from "../public/header/logoImg.svg";
 
 import styles from "./page.module.scss";
 
@@ -29,6 +30,17 @@ export default function Home() {
               Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a
               gente!
             </p>
+          </div>
+
+          <div className={styles.anchors}>
+            <Link className={styles.anchor1} href="/signin">
+              {" "}
+              Já tenho conta
+            </Link>
+            <Link className={styles.anchor2} href="/signup">
+              {" "}
+              Quero me cadastrar
+            </Link>
           </div>
         </section>
       </div>
